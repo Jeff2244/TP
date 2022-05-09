@@ -1,0 +1,47 @@
+.user-info {
+    background-color: white;
+    margin: 0.6rem;
+    padding: 1.3rem 1rem;
+    border: solid rgba(128, 128, 128, 0.4) 1px;
+    border-radius: 5px;
+}
+
+.user-info>.user-header {
+    padding-bottom: 0.8rem;
+}
+
+.user-content > ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.user-header{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.user-header > .btn{
+    padding-top: 1px;
+} 
+
+.user-content > ul > li {
+    background-color: #ade8f4;
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border-radius: 5px;
+    margin-right: 0.4rem;
+}
+
+.user-image {
+    height: 250px;
+    width: 250px;
+    overflow: hidden; 
+    border-radius: 50%;
+    padding: 0;
+    margin-left: 1rem;
+}
+
+.user-image + .user-content {
+    padding-right: 0;
+    padding-left: 2rem;
+}
